@@ -1,25 +1,40 @@
 {
-	"plugins":[
-		"-lunr",
-		"expandable-chapters",
-		"splitter",
-		"chapter-fold",
-		"page-footer-ex",
-		"anchor-navigation-ex"
+ "title":"辛巴业务文档",
 
-	],
-	"pluginsConfig":{
-		"expandable-chapters":{},
-		"page-footer-ex": {
+ "plugins":[
+  "-lunr",
+  "expandable-chapters",
+  "chapter-fold",
+  "splitter",
+  "page-footer-ex",
+  "anchor-navigation-ex",
+  "-search",
+  "search-pro",
+  "-highlight"
+
+ ],
+ "pluginsConfig":{
+  "expandable-chapters":{},
+  "page-footer-ex": {
             "copyright": "<em>Made with shark teeth <img src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAFo9M/3AAAAAXNSR0IArs4c6QAAAmxJREFUOBFtU11Ik2EUfr7vm7KtLBORSisjXJZF4cJdTCR/ynkza5ms7Gf9U0ErIS8q1gwy8SIIsrwY2YhIGGUQBlEExW68iIhBP0Ysm5pu2WRp1v7evvdd77dGHvjec97z+7znfEcgMkEmkR5L63YCzptuqiTI0m9hgkDP7E1bqUeKqMJxo5cyRqBne08qjsqCxmAi8XgCixbkIBz5Abx6O0R4Quohlq8pgSAI0Jn3saSsCi+wvukQ/KPjqFhXijpDOc4dbkkhtHd1g0L58DmAaCwG72sfVhYtScPyffSzOnvPd9AyJDI9QwLjQSYzmEySj+GvE+R3NEryqhq5iigOhpYTZHIqohi4oOIA95vrsbh2B0qWF2KDbhWcx23QrSiCcPWOh3Td7oMczXxFUUR+7kIEv4dhMlaAoib3n71kIGlD+Pfe/4VVyei2JEmw1lej91IbrwwGkkfRkLHQJOFDo3fmkEwmSdXB08T96AlpPttO9Qopz+QaS6uDTP+c5dd0H7iGZitu2MXAUj7oe8dNc3LWJzp/OmFJEtH/3It4IsEeMRr8hkrbqfSDZGl3Qy08T19gW7URnfajYAlUKgnOHjc6b92DjCAjgF8KC/JhNdXAJg/k08gYAhMhzNeqwdo4NDyCgrxcWFovsj+FB3GuX6vD9ppKmDcbUVq8jKsZZwtBR/rYO5gRPE+jwRuPC2f2NEGrVqPNZv0vmGX4tzMnr1xTJt1ov6CYQuEpUmY5QLr7Hio6LmRsBMcWi8exsfkIcrRa6MtWw/VgQN4QPQaud3AXhc+ZQLH+FWZmf+Gy6y7U2VlwHEvtIvf5Aw2y6e8A+RznAAAAAElFTkSuQmCC'> and love <img src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAFo9M/3AAAAAXNSR0IArs4c6QAAAbRJREFUOBFj/A8EDEDA9Ov2dYab8uwMjDARxhtybGApxgc+lv9/XDoLUgYBICVP08L+g1T8//PnP1wPTAFcL0yACcYA0YzMzBBrQPaBgPrDnwyM/75/+39LXQAsACIEk3IY3s+bAuazKaoyMN6zUf//69F9uAJ0BpPi4RsMApFJ6OJgPsgKBpC7YeBRuCvY/f9+fIcJYfoD3SjGe/ba/3/dvw0WF0zMZng/fypcjdrNDwwYHofLAhkcesYMKAGBLAli/331goGJkYUFXRzOl1m8hYFJ7e5XuAAyA+R1NjUtqDeB0QKKHhgGRRcMwMMB5HeQAlBYIAOwgn9fv/x/1VL+/4G78f/bOqL/HwbY/v+ybztcHYgNEgPJ3Xcz+v+qqfQ/SA8IML7pbfz/ZmIrsvOIZosU1DAwgkz9++kj0ZqQFTLz8TMw8XgGIouRxOZx9WVgkuiayQByCqlAtLyZQaJvLiIjAUOT4XlBAsOnDSvwmsUXEMEgOWEBMH8wgtVh5CqG378ZnqYEM3w5sBPFIB4HdwbpOWsZGFhZUcQxDYBK///2lQGYIMA86VmrGBi5uFE0wjgAXl4LziF67BIAAAAASUVORK5CYII='></em>",
             "markdown": false,
             "update_label": "<i></i>",
-            "update_format": "YYYY-MM-DD HH:mm:ss"
+            "update_format": "YYYY-MM-DD HH:mm:ss",
+            "signature": "ML"
+
         },
         "anchor-navigation-ex": {
             "showLevel": true,
-            "associatedWithSummary": true
+            "associatedWithSummary": true,
+            "multipleH1":false,
+            "float": { 
+          "showLevelIcon": true,
+          "level1Icon": "fa fa-hand-o-right",
+          "level2Icon": "fa fa-hand-o-right",
+          "level3Icon": "fa fa-hand-o-right"
+      }
+
         }
 
-	}
+ }
 }
